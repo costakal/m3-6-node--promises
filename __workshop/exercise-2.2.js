@@ -15,5 +15,8 @@ const greeting = (langCode) => {
 
 // Testing
 greeting("fr").then((result) => console.log(result)); // { lang: "French", code: "FR", text: "Bonjour" }
+greeting("en").then((result) => console.log(result)); // { lang: "French", code: "FR", text: "Bonjour" }
+greeting("zh").then((result) => console.log(result)); // { lang: "French", code: "FR", text: "Bonjour" }
+greeting("es").then((result) => console.log(result)); // { lang: "French", code: "FR", text: "Bonjour" }
 
 // 3
